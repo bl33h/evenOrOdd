@@ -1,0 +1,36 @@
+<!-- Copyright (C), 2023-2024, Sara Echeverria (bl33h)
+     @author Sara Echeverria
+     FileName: evenOrOdd
+     @version: I
+     Creation: 18/02/2023
+     Last modification: 18/02/2023-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Is it an even or an odd number ?</title>
+  </head>
+
+  <body>
+    <!-- Input -->
+    <p>Enter a number:</p>
+    <input type="text" id="numberInput">
+    <button onclick="checkNumber()">Check</button>
+    <p id="result"></p>
+
+    <!-- Check function that returns a number type -->
+    <script>
+      function checkNumber() {
+        let number = document.getElementById("numberInput").value;
+        let resultElement = document.getElementById("result");
+
+        if (number % 2 === 0) {
+          resultElement.textContent = number + " is an even number";
+        } else {
+          resultElement.textContent = number + " is an odd number";
+        }
+      }
+    </script>
+  </body>
+</html>
+
