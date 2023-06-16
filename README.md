@@ -11,6 +11,9 @@ This project features a simple web application that allows users to determine wh
   <a href="#functionality">Functionality</a> •
   <a href="#how-to-use">How To Use</a> 
 </p>
+<p align="center" >
+<a href="https://evenoroddnumber.netlify.app/">Try it out here</a> 
+</p>
 
 ## Files
 
